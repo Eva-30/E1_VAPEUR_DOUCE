@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'STAYHOME';
+    src:url(STAYHOME.otf);
+}
+body{
+    margin: 5px;
+    padding: 0px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-auto-rows: repeat(2,1fr);
+    color:  #393e46;
+    background-image: 'fondDestock3.jpg';
+}
+h1{
+    background-color: transparent;
+    background-image: none;
+    font-family:'STAYHOME';
+}
+.formulaire{
+    border: 3px solid #ffd369; 
+    box-shadow: #393e46 5px 12px 5px; 
+}
+.fondDestock{
+    margin:0px;
+    padding: 0px;
+    grid-column: 1/2;
+    grid-row: 2;
+}
+.fondMobile{
+    margin: 0px;
+    padding: 0px;
+    display: none;
+}
+.echoReponse{
+    border: 3px solid #ffd369; 
+    box-shadow: #393e46 5px 12px 5px; 
+}
